@@ -4,4 +4,5 @@
 
 # Object files in subdirectories
 
+obj-$(CONFIG_J4FS)		+= j4fs/
 obj-y				+= startup_reason/
