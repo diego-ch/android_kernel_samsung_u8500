@@ -127,3 +127,4 @@ endif
 endif
 endif
 obj-$(CONFIG_MACH_SAMSUNG_UX500)	+= sec_common.o
+obj-$(CONFIG_SEC_PARAM_DEBUG)		+= sec_param.o
